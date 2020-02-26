@@ -4,7 +4,7 @@ The MongoDB language support for VSCode extensions.
 
 ![example](./example.png)
 
-The MongoDB language was built for [the official MongoDB VSCode plugin](https://github.com/mongodb-js/vscode) that introduces a new `.mongodb` extension for its playground. Will work with any file though that has the `.mongodb` extension.
+The MongoDB language is built for [the official MongoDB VSCode plugin](https://github.com/mongodb-js/vscode) that introduces a new `.mongodb` extension for its playground, but can be used as a MongoDB language support for any other plugin that needs the `.mongodb` extension.
 
 ## How to install
 
