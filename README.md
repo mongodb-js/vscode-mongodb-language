@@ -4,7 +4,7 @@ The MongoDB language support for VSCode extensions.
 
 ![example](./example.png)
 
-The MongoDB language was built for [the official MongoDB VSCode plugin](https://github.com/mongodb-js/vscode) that introduces a new `.mongodb` extension for its playground. It will work with any other plugin though with files that have `.mongodb` extension.
+The MongoDB language was built for [the official MongoDB VSCode plugin](https://github.com/mongodb-js/vscode) that introduces a new `.mongodb` extension for its playground. Will work with any file though that has the `.mongodb` extension.
 
 ## How to install
 
@@ -16,7 +16,7 @@ The MongoDB Language Extension is not released yet. To start using this extensio
 
 The `mongodb.tmLanguage.json` file is derived from [TypeScript.tmLanguage](https://github.com/Microsoft/TypeScript-TmLanguage/blob/master/TypeScript.tmLanguage) and injected with MongoDB symbols from `mongodb-symbols.json`.
 
-If you download a new version of the TypeScript grammar or updated the MongoDB symbols you should update the MongoDB grammar by running the script:
+If you download a new version of the TypeScript grammar or update the MongoDB symbols you should update the MongoDB grammar by running the script:
 
 `npm run update-grammar`
 
