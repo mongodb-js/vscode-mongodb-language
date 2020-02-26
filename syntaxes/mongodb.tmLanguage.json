@@ -1,7 +1,10 @@
 {
   "name": "MongoDB",
+  "uuid": "ef98eb90-bf9b-11e4-bb52-0800200c9a66",
   "scopeName": "source.mongodb",
-  "fileTypes": ["mongodb"],
+  "fileTypes": [
+    "mongodb"
+  ],
   "patterns": [
     {
       "include": "#directives"
@@ -2548,6 +2551,1446 @@
     },
     "object-member": {
       "patterns": [
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$undefined\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$timestamp\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$regularExpression\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$oid\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$numberLong\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$numberInt\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$numberDouble\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$numberDecimal\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$minKey\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$maxKey\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$date\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$binary\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$unwind\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$sortByCount\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$sort\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$skip\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$sample\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$replaceRoot\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$redact\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$project\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$out\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$match\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$lookup\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$limit\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$indexStats\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$group\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$graphLookup\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$geoNear\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$facet\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$count\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$collStats\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$bucketAuto\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$bucket\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$addFields\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$where\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$text\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$regex\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$nor\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$nin\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$nearSphere\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$near\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$ne\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$lte\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$jsonSchema\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$geoWithin\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$geoIntersects\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$expr\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$exists\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$elemMatch\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$comment\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$bitsAnySet\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$bitsAnyClear\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$bitsAllSet\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$bitsAllClear\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$all\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$zip\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$year\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$week\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$type\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$trunc\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toUpper\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toLower\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$switch\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$subtract\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$substrCP\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$substrBytes\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$substr\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$strLenCP\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$strLenBytes\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$strcasecmp\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$sqrt\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$split\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$slice\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$size\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$setUnion\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$setIsSubset\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$setIntersection\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$setEquals\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$setDifference\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$second\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$reverseArray\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$reduce\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$range\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$pow\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$or\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$objectToArray\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$not\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$new\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$multiply\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$month\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$mod\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$minute\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$millisecond\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$meta\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$mergeObjects\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$map\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$log10\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$log\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$ln\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$lt\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$literal\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$let\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$isoWeekYear\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$isoWeek\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$isoDayOfWeek\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$isArray\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$indexOfCP\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$indexOfBytes\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$indexOfArray\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$in\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$ifNull\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$hour\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$gte\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$gt\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$floor\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$filter\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$exp\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$eq\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$divide\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dayOfYear\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dayOfWeek\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dayOfMonth\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dateToString\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dateToParts\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dateFromString\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$dateFromParts\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$cond\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$concatArrays\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$concat\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$cmp\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$ceil\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$arrayToObject\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$arrayElemAt\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$anyElementTrue\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$and\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$allElementsTrue\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$add\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$abs\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$trim\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toString\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toObjectId\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toLong\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toInt\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toDouble\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toDecimal\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toDate\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$toBool\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$rtrim\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$ltrim\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$convert\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$sum\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$stdDevSamp\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$stdDevPop\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$push\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$min\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$max\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$last\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$first\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$avg\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
+        {
+          "name": "meta.object.member.mongodb",
+          "match": "\\$addToSet\\b",
+          "captures": {
+            "0": {
+              "name": "keyword.kokoko.mongodb"
+            }
+          }
+        },
         {
           "include": "#comment"
         },
