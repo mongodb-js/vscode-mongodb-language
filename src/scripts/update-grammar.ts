@@ -90,7 +90,7 @@ mongodbSymbols.forEach((item) => {
     match: `\\$${value}\\b`,
     captures: {
       0: {
-        name: 'keyword.kokoko.mongodb'
+        name: `keyword.${value}.mongodb`
       }
     }
   });

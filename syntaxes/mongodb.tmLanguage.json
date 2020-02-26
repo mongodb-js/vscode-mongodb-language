@@ -2556,7 +2556,7 @@
           "match": "\\$undefined\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.undefined.mongodb"
             }
           }
         },
@@ -2565,7 +2565,7 @@
           "match": "\\$timestamp\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.timestamp.mongodb"
             }
           }
         },
@@ -2574,7 +2574,7 @@
           "match": "\\$regularExpression\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.regularExpression.mongodb"
             }
           }
         },
@@ -2583,7 +2583,7 @@
           "match": "\\$oid\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.oid.mongodb"
             }
           }
         },
@@ -2592,7 +2592,7 @@
           "match": "\\$numberLong\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.numberLong.mongodb"
             }
           }
         },
@@ -2601,7 +2601,7 @@
           "match": "\\$numberInt\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.numberInt.mongodb"
             }
           }
         },
@@ -2610,7 +2610,7 @@
           "match": "\\$numberDouble\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.numberDouble.mongodb"
             }
           }
         },
@@ -2619,7 +2619,7 @@
           "match": "\\$numberDecimal\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.numberDecimal.mongodb"
             }
           }
         },
@@ -2628,7 +2628,7 @@
           "match": "\\$minKey\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.minKey.mongodb"
             }
           }
         },
@@ -2637,7 +2637,7 @@
           "match": "\\$maxKey\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.maxKey.mongodb"
             }
           }
         },
@@ -2646,7 +2646,7 @@
           "match": "\\$date\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.date.mongodb"
             }
           }
         },
@@ -2655,7 +2655,7 @@
           "match": "\\$binary\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.binary.mongodb"
             }
           }
         },
@@ -2664,7 +2664,7 @@
           "match": "\\$unwind\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.unwind.mongodb"
             }
           }
         },
@@ -2673,7 +2673,7 @@
           "match": "\\$sortByCount\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.sortByCount.mongodb"
             }
           }
         },
@@ -2682,7 +2682,7 @@
           "match": "\\$sort\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.sort.mongodb"
             }
           }
         },
@@ -2691,7 +2691,7 @@
           "match": "\\$skip\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.skip.mongodb"
             }
           }
         },
@@ -2700,7 +2700,7 @@
           "match": "\\$sample\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.sample.mongodb"
             }
           }
         },
@@ -2709,7 +2709,7 @@
           "match": "\\$replaceRoot\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.replaceRoot.mongodb"
             }
           }
         },
@@ -2718,7 +2718,7 @@
           "match": "\\$redact\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.redact.mongodb"
             }
           }
         },
@@ -2727,7 +2727,7 @@
           "match": "\\$project\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.project.mongodb"
             }
           }
         },
@@ -2736,7 +2736,7 @@
           "match": "\\$out\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.out.mongodb"
             }
           }
         },
@@ -2745,7 +2745,7 @@
           "match": "\\$match\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.match.mongodb"
             }
           }
         },
@@ -2754,7 +2754,7 @@
           "match": "\\$lookup\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.lookup.mongodb"
             }
           }
         },
@@ -2763,7 +2763,7 @@
           "match": "\\$limit\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.limit.mongodb"
             }
           }
         },
@@ -2772,7 +2772,7 @@
           "match": "\\$indexStats\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.indexStats.mongodb"
             }
           }
         },
@@ -2781,7 +2781,7 @@
           "match": "\\$group\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.group.mongodb"
             }
           }
         },
@@ -2790,7 +2790,7 @@
           "match": "\\$graphLookup\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.graphLookup.mongodb"
             }
           }
         },
@@ -2799,7 +2799,7 @@
           "match": "\\$geoNear\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.geoNear.mongodb"
             }
           }
         },
@@ -2808,7 +2808,7 @@
           "match": "\\$facet\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.facet.mongodb"
             }
           }
         },
@@ -2817,7 +2817,7 @@
           "match": "\\$count\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.count.mongodb"
             }
           }
         },
@@ -2826,7 +2826,7 @@
           "match": "\\$collStats\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.collStats.mongodb"
             }
           }
         },
@@ -2835,7 +2835,7 @@
           "match": "\\$bucketAuto\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.bucketAuto.mongodb"
             }
           }
         },
@@ -2844,7 +2844,7 @@
           "match": "\\$bucket\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.bucket.mongodb"
             }
           }
         },
@@ -2853,7 +2853,7 @@
           "match": "\\$addFields\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.addFields.mongodb"
             }
           }
         },
@@ -2862,7 +2862,7 @@
           "match": "\\$where\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.where.mongodb"
             }
           }
         },
@@ -2871,7 +2871,7 @@
           "match": "\\$text\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.text.mongodb"
             }
           }
         },
@@ -2880,7 +2880,7 @@
           "match": "\\$regex\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.regex.mongodb"
             }
           }
         },
@@ -2889,7 +2889,7 @@
           "match": "\\$nor\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.nor.mongodb"
             }
           }
         },
@@ -2898,7 +2898,7 @@
           "match": "\\$nin\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.nin.mongodb"
             }
           }
         },
@@ -2907,7 +2907,7 @@
           "match": "\\$nearSphere\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.nearSphere.mongodb"
             }
           }
         },
@@ -2916,7 +2916,7 @@
           "match": "\\$near\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.near.mongodb"
             }
           }
         },
@@ -2925,7 +2925,7 @@
           "match": "\\$ne\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.ne.mongodb"
             }
           }
         },
@@ -2934,7 +2934,7 @@
           "match": "\\$lte\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.lte.mongodb"
             }
           }
         },
@@ -2943,7 +2943,7 @@
           "match": "\\$jsonSchema\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.jsonSchema.mongodb"
             }
           }
         },
@@ -2952,7 +2952,7 @@
           "match": "\\$geoWithin\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.geoWithin.mongodb"
             }
           }
         },
@@ -2961,7 +2961,7 @@
           "match": "\\$geoIntersects\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.geoIntersects.mongodb"
             }
           }
         },
@@ -2970,7 +2970,7 @@
           "match": "\\$expr\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.expr.mongodb"
             }
           }
         },
@@ -2979,7 +2979,7 @@
           "match": "\\$exists\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.exists.mongodb"
             }
           }
         },
@@ -2988,7 +2988,7 @@
           "match": "\\$elemMatch\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.elemMatch.mongodb"
             }
           }
         },
@@ -2997,7 +2997,7 @@
           "match": "\\$comment\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.comment.mongodb"
             }
           }
         },
@@ -3006,7 +3006,7 @@
           "match": "\\$bitsAnySet\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.bitsAnySet.mongodb"
             }
           }
         },
@@ -3015,7 +3015,7 @@
           "match": "\\$bitsAnyClear\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.bitsAnyClear.mongodb"
             }
           }
         },
@@ -3024,7 +3024,7 @@
           "match": "\\$bitsAllSet\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.bitsAllSet.mongodb"
             }
           }
         },
@@ -3033,7 +3033,7 @@
           "match": "\\$bitsAllClear\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.bitsAllClear.mongodb"
             }
           }
         },
@@ -3042,7 +3042,7 @@
           "match": "\\$all\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.all.mongodb"
             }
           }
         },
@@ -3051,7 +3051,7 @@
           "match": "\\$zip\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.zip.mongodb"
             }
           }
         },
@@ -3060,7 +3060,7 @@
           "match": "\\$year\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.year.mongodb"
             }
           }
         },
@@ -3069,7 +3069,7 @@
           "match": "\\$week\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.week.mongodb"
             }
           }
         },
@@ -3078,7 +3078,7 @@
           "match": "\\$type\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.type.mongodb"
             }
           }
         },
@@ -3087,7 +3087,7 @@
           "match": "\\$trunc\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.trunc.mongodb"
             }
           }
         },
@@ -3096,7 +3096,7 @@
           "match": "\\$toUpper\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toUpper.mongodb"
             }
           }
         },
@@ -3105,7 +3105,7 @@
           "match": "\\$toLower\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toLower.mongodb"
             }
           }
         },
@@ -3114,7 +3114,7 @@
           "match": "\\$switch\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.switch.mongodb"
             }
           }
         },
@@ -3123,7 +3123,7 @@
           "match": "\\$subtract\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.subtract.mongodb"
             }
           }
         },
@@ -3132,7 +3132,7 @@
           "match": "\\$substrCP\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.substrCP.mongodb"
             }
           }
         },
@@ -3141,7 +3141,7 @@
           "match": "\\$substrBytes\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.substrBytes.mongodb"
             }
           }
         },
@@ -3150,7 +3150,7 @@
           "match": "\\$substr\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.substr.mongodb"
             }
           }
         },
@@ -3159,7 +3159,7 @@
           "match": "\\$strLenCP\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.strLenCP.mongodb"
             }
           }
         },
@@ -3168,7 +3168,7 @@
           "match": "\\$strLenBytes\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.strLenBytes.mongodb"
             }
           }
         },
@@ -3177,7 +3177,7 @@
           "match": "\\$strcasecmp\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.strcasecmp.mongodb"
             }
           }
         },
@@ -3186,7 +3186,7 @@
           "match": "\\$sqrt\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.sqrt.mongodb"
             }
           }
         },
@@ -3195,7 +3195,7 @@
           "match": "\\$split\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.split.mongodb"
             }
           }
         },
@@ -3204,7 +3204,7 @@
           "match": "\\$slice\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.slice.mongodb"
             }
           }
         },
@@ -3213,7 +3213,7 @@
           "match": "\\$size\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.size.mongodb"
             }
           }
         },
@@ -3222,7 +3222,7 @@
           "match": "\\$setUnion\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.setUnion.mongodb"
             }
           }
         },
@@ -3231,7 +3231,7 @@
           "match": "\\$setIsSubset\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.setIsSubset.mongodb"
             }
           }
         },
@@ -3240,7 +3240,7 @@
           "match": "\\$setIntersection\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.setIntersection.mongodb"
             }
           }
         },
@@ -3249,7 +3249,7 @@
           "match": "\\$setEquals\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.setEquals.mongodb"
             }
           }
         },
@@ -3258,7 +3258,7 @@
           "match": "\\$setDifference\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.setDifference.mongodb"
             }
           }
         },
@@ -3267,7 +3267,7 @@
           "match": "\\$second\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.second.mongodb"
             }
           }
         },
@@ -3276,7 +3276,7 @@
           "match": "\\$reverseArray\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.reverseArray.mongodb"
             }
           }
         },
@@ -3285,7 +3285,7 @@
           "match": "\\$reduce\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.reduce.mongodb"
             }
           }
         },
@@ -3294,7 +3294,7 @@
           "match": "\\$range\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.range.mongodb"
             }
           }
         },
@@ -3303,7 +3303,7 @@
           "match": "\\$pow\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.pow.mongodb"
             }
           }
         },
@@ -3312,7 +3312,7 @@
           "match": "\\$or\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.or.mongodb"
             }
           }
         },
@@ -3321,7 +3321,7 @@
           "match": "\\$objectToArray\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.objectToArray.mongodb"
             }
           }
         },
@@ -3330,7 +3330,7 @@
           "match": "\\$not\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.not.mongodb"
             }
           }
         },
@@ -3339,7 +3339,7 @@
           "match": "\\$new\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.new.mongodb"
             }
           }
         },
@@ -3348,7 +3348,7 @@
           "match": "\\$multiply\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.multiply.mongodb"
             }
           }
         },
@@ -3357,7 +3357,7 @@
           "match": "\\$month\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.month.mongodb"
             }
           }
         },
@@ -3366,7 +3366,7 @@
           "match": "\\$mod\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.mod.mongodb"
             }
           }
         },
@@ -3375,7 +3375,7 @@
           "match": "\\$minute\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.minute.mongodb"
             }
           }
         },
@@ -3384,7 +3384,7 @@
           "match": "\\$millisecond\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.millisecond.mongodb"
             }
           }
         },
@@ -3393,7 +3393,7 @@
           "match": "\\$meta\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.meta.mongodb"
             }
           }
         },
@@ -3402,7 +3402,7 @@
           "match": "\\$mergeObjects\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.mergeObjects.mongodb"
             }
           }
         },
@@ -3411,7 +3411,7 @@
           "match": "\\$map\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.map.mongodb"
             }
           }
         },
@@ -3420,7 +3420,7 @@
           "match": "\\$log10\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.log10.mongodb"
             }
           }
         },
@@ -3429,7 +3429,7 @@
           "match": "\\$log\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.log.mongodb"
             }
           }
         },
@@ -3438,7 +3438,7 @@
           "match": "\\$ln\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.ln.mongodb"
             }
           }
         },
@@ -3447,7 +3447,7 @@
           "match": "\\$lt\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.lt.mongodb"
             }
           }
         },
@@ -3456,7 +3456,7 @@
           "match": "\\$literal\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.literal.mongodb"
             }
           }
         },
@@ -3465,7 +3465,7 @@
           "match": "\\$let\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.let.mongodb"
             }
           }
         },
@@ -3474,7 +3474,7 @@
           "match": "\\$isoWeekYear\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.isoWeekYear.mongodb"
             }
           }
         },
@@ -3483,7 +3483,7 @@
           "match": "\\$isoWeek\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.isoWeek.mongodb"
             }
           }
         },
@@ -3492,7 +3492,7 @@
           "match": "\\$isoDayOfWeek\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.isoDayOfWeek.mongodb"
             }
           }
         },
@@ -3501,7 +3501,7 @@
           "match": "\\$isArray\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.isArray.mongodb"
             }
           }
         },
@@ -3510,7 +3510,7 @@
           "match": "\\$indexOfCP\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.indexOfCP.mongodb"
             }
           }
         },
@@ -3519,7 +3519,7 @@
           "match": "\\$indexOfBytes\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.indexOfBytes.mongodb"
             }
           }
         },
@@ -3528,7 +3528,7 @@
           "match": "\\$indexOfArray\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.indexOfArray.mongodb"
             }
           }
         },
@@ -3537,7 +3537,7 @@
           "match": "\\$in\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.in.mongodb"
             }
           }
         },
@@ -3546,7 +3546,7 @@
           "match": "\\$ifNull\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.ifNull.mongodb"
             }
           }
         },
@@ -3555,7 +3555,7 @@
           "match": "\\$hour\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.hour.mongodb"
             }
           }
         },
@@ -3564,7 +3564,7 @@
           "match": "\\$gte\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.gte.mongodb"
             }
           }
         },
@@ -3573,7 +3573,7 @@
           "match": "\\$gt\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.gt.mongodb"
             }
           }
         },
@@ -3582,7 +3582,7 @@
           "match": "\\$floor\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.floor.mongodb"
             }
           }
         },
@@ -3591,7 +3591,7 @@
           "match": "\\$filter\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.filter.mongodb"
             }
           }
         },
@@ -3600,7 +3600,7 @@
           "match": "\\$exp\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.exp.mongodb"
             }
           }
         },
@@ -3609,7 +3609,7 @@
           "match": "\\$eq\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.eq.mongodb"
             }
           }
         },
@@ -3618,7 +3618,7 @@
           "match": "\\$divide\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.divide.mongodb"
             }
           }
         },
@@ -3627,7 +3627,7 @@
           "match": "\\$dayOfYear\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dayOfYear.mongodb"
             }
           }
         },
@@ -3636,7 +3636,7 @@
           "match": "\\$dayOfWeek\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dayOfWeek.mongodb"
             }
           }
         },
@@ -3645,7 +3645,7 @@
           "match": "\\$dayOfMonth\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dayOfMonth.mongodb"
             }
           }
         },
@@ -3654,7 +3654,7 @@
           "match": "\\$dateToString\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dateToString.mongodb"
             }
           }
         },
@@ -3663,7 +3663,7 @@
           "match": "\\$dateToParts\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dateToParts.mongodb"
             }
           }
         },
@@ -3672,7 +3672,7 @@
           "match": "\\$dateFromString\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dateFromString.mongodb"
             }
           }
         },
@@ -3681,7 +3681,7 @@
           "match": "\\$dateFromParts\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.dateFromParts.mongodb"
             }
           }
         },
@@ -3690,7 +3690,7 @@
           "match": "\\$cond\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.cond.mongodb"
             }
           }
         },
@@ -3699,7 +3699,7 @@
           "match": "\\$concatArrays\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.concatArrays.mongodb"
             }
           }
         },
@@ -3708,7 +3708,7 @@
           "match": "\\$concat\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.concat.mongodb"
             }
           }
         },
@@ -3717,7 +3717,7 @@
           "match": "\\$cmp\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.cmp.mongodb"
             }
           }
         },
@@ -3726,7 +3726,7 @@
           "match": "\\$ceil\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.ceil.mongodb"
             }
           }
         },
@@ -3735,7 +3735,7 @@
           "match": "\\$arrayToObject\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.arrayToObject.mongodb"
             }
           }
         },
@@ -3744,7 +3744,7 @@
           "match": "\\$arrayElemAt\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.arrayElemAt.mongodb"
             }
           }
         },
@@ -3753,7 +3753,7 @@
           "match": "\\$anyElementTrue\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.anyElementTrue.mongodb"
             }
           }
         },
@@ -3762,7 +3762,7 @@
           "match": "\\$and\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.and.mongodb"
             }
           }
         },
@@ -3771,7 +3771,7 @@
           "match": "\\$allElementsTrue\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.allElementsTrue.mongodb"
             }
           }
         },
@@ -3780,7 +3780,7 @@
           "match": "\\$add\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.add.mongodb"
             }
           }
         },
@@ -3789,7 +3789,7 @@
           "match": "\\$abs\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.abs.mongodb"
             }
           }
         },
@@ -3798,7 +3798,7 @@
           "match": "\\$trim\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.trim.mongodb"
             }
           }
         },
@@ -3807,7 +3807,7 @@
           "match": "\\$toString\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toString.mongodb"
             }
           }
         },
@@ -3816,7 +3816,7 @@
           "match": "\\$toObjectId\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toObjectId.mongodb"
             }
           }
         },
@@ -3825,7 +3825,7 @@
           "match": "\\$toLong\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toLong.mongodb"
             }
           }
         },
@@ -3834,7 +3834,7 @@
           "match": "\\$toInt\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toInt.mongodb"
             }
           }
         },
@@ -3843,7 +3843,7 @@
           "match": "\\$toDouble\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toDouble.mongodb"
             }
           }
         },
@@ -3852,7 +3852,7 @@
           "match": "\\$toDecimal\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toDecimal.mongodb"
             }
           }
         },
@@ -3861,7 +3861,7 @@
           "match": "\\$toDate\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toDate.mongodb"
             }
           }
         },
@@ -3870,7 +3870,7 @@
           "match": "\\$toBool\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.toBool.mongodb"
             }
           }
         },
@@ -3879,7 +3879,7 @@
           "match": "\\$rtrim\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.rtrim.mongodb"
             }
           }
         },
@@ -3888,7 +3888,7 @@
           "match": "\\$ltrim\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.ltrim.mongodb"
             }
           }
         },
@@ -3897,7 +3897,7 @@
           "match": "\\$convert\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.convert.mongodb"
             }
           }
         },
@@ -3906,7 +3906,7 @@
           "match": "\\$sum\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.sum.mongodb"
             }
           }
         },
@@ -3915,7 +3915,7 @@
           "match": "\\$stdDevSamp\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.stdDevSamp.mongodb"
             }
           }
         },
@@ -3924,7 +3924,7 @@
           "match": "\\$stdDevPop\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.stdDevPop.mongodb"
             }
           }
         },
@@ -3933,7 +3933,7 @@
           "match": "\\$push\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.push.mongodb"
             }
           }
         },
@@ -3942,7 +3942,7 @@
           "match": "\\$min\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.min.mongodb"
             }
           }
         },
@@ -3951,7 +3951,7 @@
           "match": "\\$max\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.max.mongodb"
             }
           }
         },
@@ -3960,7 +3960,7 @@
           "match": "\\$last\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.last.mongodb"
             }
           }
         },
@@ -3969,7 +3969,7 @@
           "match": "\\$first\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.first.mongodb"
             }
           }
         },
@@ -3978,7 +3978,7 @@
           "match": "\\$avg\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.avg.mongodb"
             }
           }
         },
@@ -3987,7 +3987,7 @@
           "match": "\\$addToSet\\b",
           "captures": {
             "0": {
-              "name": "keyword.kokoko.mongodb"
+              "name": "keyword.addToSet.mongodb"
             }
           }
         },
