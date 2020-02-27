@@ -5,7 +5,7 @@ import plist = require('fast-plist');
 const tsGrammarPlist = fs.readFileSync('./grammar/TypeScript.tmLanguage');
 const tsGrammarJSON = plist.parse(tsGrammarPlist.toString('utf8'));
 const mongodbGrammar = path.resolve('./syntaxes/mongodb.tmLanguage.json');
-let mongodbSymbols = require(path.resolve('./syntaxes/mongodb-symbols.json'));
+const mongodbSymbols = require(path.resolve('./syntaxes/mongodb-symbols.json'));
 
 /**
  * Updates `.ts` rule names to `.mongodb`.
@@ -72,27 +72,20 @@ const mongoDBGrammarJSON = {
   repository
 };
 
-// Get all MongoDB symbols as a single array
-mongodbSymbols = Object.values(mongodbSymbols);
-mongodbSymbols = (mongodbSymbols as any[]).reduce(
-  (acc, val) => acc.concat(val),
-  []
-);
-// Create an array of unique values
-// [...new Set()] is equal to `lodash.union`
-mongodbSymbols = [...new Set(mongodbSymbols)];
-// Inject MongoDB symbols into the grammar
-mongodbSymbols.forEach((item) => {
-  const value = item.substring(1);
+// Inject the resulting grammar with MongoDB symbols
+Object.keys(mongodbSymbols).forEach((key) => {
+  mongodbSymbols[key].forEach((item) => {
+    const value = item.substring(1);
 
-  mongoDBGrammarJSON.repository['object-member'].patterns.unshift({
-    name: 'meta.object.member.mongodb',
-    match: `\\$${value}\\b`,
-    captures: {
-      0: {
-        name: `keyword.${value}.mongodb`
+    mongoDBGrammarJSON.repository['object-member'].patterns.unshift({
+      name: 'meta.object.member.mongodb',
+      match: `\\$${value}\\b`,
+      captures: {
+        0: {
+          name: `keyword.other.${key}.${value}.mongodb`
+        }
       }
-    }
+    });
   });
 });
 
