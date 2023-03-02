@@ -3,6 +3,7 @@
 The MongoDB language support for VSCode extensions.
 
 ![example](./example.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmongodb-js%2Fvscode-mongodb-language.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmongodb-js%2Fvscode-mongodb-language?ref=badge_shield)
 
 The MongoDB language is built for [the official MongoDB VSCode plugin](https://github.com/mongodb-js/vscode) that introduces a new `.mongodb` extension for its playground, but can be used as a MongoDB language support by any other plugin that uses the `.mongodb` extension.
 
@@ -33,3 +34,7 @@ Compare `uuid` in `TypeScript.tmLanguage` and `mongodb.tmLanguage.json` to verif
 The `mongodb-symbols.json` file contains symbols that are defined in [mongodb-ace-mode](https://github.com/mongodb-js/ace-mode/blob/master/index.js#L63-L263).
 
 Note: ACE supports the [importing of .tmtheme and .tmlanguage files](https://github.com/ajaxorg/ace/wiki/Importing-.tmtheme-and-.tmlanguage-Files-into-Ace) for use in the editor. Probably `vscode-mongodb-language` can be a source of truth for other projects instead of requiring symbols from `mongodb-ace-mode`.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmongodb-js%2Fvscode-mongodb-language.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmongodb-js%2Fvscode-mongodb-language?ref=badge_large)
